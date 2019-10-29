@@ -1,6 +1,6 @@
 # 資料結構與演算法
 Merge Sort
-- 
+!image(https://github.com/poor314/poor314/blob/master/merge%20sort.png)
 Quick Sort
 - 以第一個值為基準值
 - 比基準值小的值放入"較小字串"
