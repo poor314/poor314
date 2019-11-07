@@ -24,6 +24,6 @@ def heapsort(A):
         
         heapify(A,i,0)
         
-A=[12,11,13,5,6,7]
+A=[12,1,13,5,26,7,33]
 heapsort(A)
 print(A)
