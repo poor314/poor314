@@ -1,18 +1,20 @@
 def heapify(A,size,i):
-    l=2*i+1 
-    r=2*i+2 
-    largest=i 
+    l=2*i+1 #左子節點
+    r=2*i+2 #右子節點
+    largest=i #i=最大
     
     if l<size and A[l]>A[largest]:
-        largest=l
+        largest=l 
         
     if r<size and A[r]>A[largest]:
         largest=r
         
     if largest!=i:
-        A[i],A[largest]=A[largest],A[i] 
+        A[i],A[largest]=A[largest],A[i] #交換
         
         heapify(A,size,largest)
+        
+        
 def heapsort(A):
     size=len(A)
     
@@ -20,7 +22,7 @@ def heapsort(A):
         heapify(A,size,i)
     
     for i in range(size-1,0,-1):
-        A[i],A[0]=A[0],A[i]
+        A[i],A[0]=A[0],A[i] #交換
         
         heapify(A,i,0)
         
