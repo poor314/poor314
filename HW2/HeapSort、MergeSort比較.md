@@ -1,0 +1,2 @@
+- 以時間來說，Heap Sort比Merge Sort 還要來的有效率。
+- 間上來說，Merge Sort每次呼叫都會佔用到記憶體的額外一個空間，而Heap Sort不用。
