@@ -8,4 +8,8 @@ Heap Sort
 - 參考資料:http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
 
 Merge Sort
+- 步驟:
+- 1.將陣列分割直到只有一個元素
+- 2.開始兩兩合併，每次合併同時進行排序，合併出排序過的陣列
+- 3.重複2的動作直接全部合併完成
 - 參考資料:https://emn178.pixnet.net/blog/post/87965707
