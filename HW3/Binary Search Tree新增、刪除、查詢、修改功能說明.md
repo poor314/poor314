@@ -1,0 +1,8 @@
+- Insert新增:
+![image](https://github.com/poor314/poor314/blob/master/image/insert.jpg)
+- Delete刪除
+![image](https://github.com/poor314/poor314/blob/master/image/delete.jpg)
+- Search搜尋
+![image](https://github.com/poor314/poor314/blob/master/image/search.jpg)
+- Modify修改
+![image](https://github.com/poor314/poor314/blob/master/image/modify.jpg)
